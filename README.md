@@ -1,6 +1,6 @@
-# Projecte XXXXXXXXXXXXX
+# Projecte Maleter 
 
->**Autors:** 
+>**Autors: Alba Martin i Mireia Campanera
 >**Versió: **
 
 ----------

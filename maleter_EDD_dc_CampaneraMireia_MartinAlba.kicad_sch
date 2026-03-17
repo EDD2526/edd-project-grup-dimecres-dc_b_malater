@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c2b694d2-752b-44f8-812f-8731bb340544")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 85.09)
+		(size 88.9 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1050bd4f-d9f0-4ddf-8751-af2611f7ea07")
+		(property "Sheetname" "COMUNICACIONS"
+			(at 16.51 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "comunicacions.kicad_sch"
+			(at 16.51 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
+				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 16.51)
+		(size 87.63 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e6a788b-feef-45c4-bbb9-f5e7cb76aa91")
+		(property "Sheetname" "POWER"
+			(at 16.51 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 16.51 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
+				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 16.51)
+		(size 92.71 140.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e35d8d3-8b35-4beb-922e-687e7fcfe1e6")
+		(property "Sheetname" "MICROCONTROLADOR"
+			(at 107.95 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micrcontrolador.kicad_sch"
+			(at 107.95 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
+				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 88.9)
+		(size 76.2 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db443bb2-c019-4a94-bb99-619d7b9d8d5c")
+		(property "Sheetname" "ACCIONADORS"
+			(at 204.47 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "accionadors.kicad_sch"
+			(at 204.47 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
+				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 16.51)
+		(size 76.2 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea3a0719-c2d7-40bd-982d-95a5ed936e91")
+		(property "Sheetname" "SENSORS"
+			(at 204.47 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 204.47 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
+				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

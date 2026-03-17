@@ -22,7 +22,7 @@ fp-info-cache
 #gerbers/
 #*.gbr
 #*.drl
-#*.pdf
+pdf
 #*.csv
 #*.pos
 #*.rpt

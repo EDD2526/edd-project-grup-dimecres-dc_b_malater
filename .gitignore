@@ -1,0 +1,28 @@
+# --- FITXERS TEMPORALS I LOCALS ---
+# Configuració de la sessió (pestanyes obertes, visibilitat de capes)
+*.kicad_prl
+# Caché de llibreries (es regenera sol)
+fp-info-cache
+# Fitxers de bloqueig quan el projecte està obert
+*.lck
+
+# --- BACKUPS (COPIES DE SEGURETAT) ---
+# Els .zip de la v8 i carpetes de backup
+*-backups/
+*.zip
+# Backups de versions antigues
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*_autosave-*
+
+# --- FITXERS DE SORTIDA (GENERATS) ---
+# Gerbers, llistats de materials i fitxers de trepant
+#plots/
+#gerbers/
+#*.gbr
+#*.drl
+pdf
+#*.csv
+#*.pos
+#*.rpt

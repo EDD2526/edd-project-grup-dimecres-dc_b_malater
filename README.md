@@ -3,18 +3,20 @@ View this project on [CADLAB.io](https://cadlab.io/project/30194).
 # Projecte Maleter 
 
 >**Autors: Alba Martin i Mireia Campanera
->**Versió: **
+>**Versió: 
 
 ----------
 
 ## Objectiu
 
->PCB per ...
-
+>PCB per 
+ - Obrir i tancar el maleter amb un motor
+ - Detectar el peu sota el cotxe per obrir-lo
+ - Activar el calefactor del vidre del maleter
+ - Detectar objectes per evitar atrapaments
 
 ## Diagrama de blocs
-
-
+C:\Users\User\Desktop\UB\2N\eines de disseny\projecte\edd-project-grup-dimecres-dc_b_malater\DIAGRAMA DE BLOCS.png
 ### Descripció/funcionalitat de cada bloc
 
   *
@@ -23,13 +25,18 @@ View this project on [CADLAB.io](https://cadlab.io/project/30194).
 
 ## Requisits / Especificacions
 
-  * Alimentació; 12V, regulada 5V
-  * Microcontrolador PIC18xxxxxxxxx
-  * ...
+  * Alimentació; 12V, regulada 5V (LM2596), regulada 3.3V (LM1117)
+  * Microcontrolador PIC24HJ128GP502
+  * Driver Motor DRV8871
+  * Sensor d'obertura amb el peu ToF VL53L0X  
+  * Sensor final de carrera microswitch kw11
+  * Sensor anti-atrapament (amplificador INA180)
+  * Calefactor (mosfet)
+  * Comunicació Can MCP2551
 
 -----------
 
-## Components
+## Components (Veure datasheets en la carpeta datasheet)
 
 | Descripci&#243; | Ref | Package |Datasheet | Prove&#239;dor | Preu | Unitats |
 | --- | --- | --- | --- | ---| --- | --- |

@@ -5,9 +5,33 @@
 	(uuid "c2b694d2-752b-44f8-812f-8731bb340544")
 	(paper "A4")
 	(lib_symbols)
+	(text "POTÈNCIA I COMUNICACIONS\n"
+		(exclude_from_sim no)
+		(at 79.248 68.326 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "35d07cbd-2d55-43b3-bc56-5581dc63ddc0")
+	)
+	(text "MICROCONTROLADOR, SENSORS I \nACTUADORS"
+		(exclude_from_sim no)
+		(at 214.884 69.088 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "e446eebb-bffe-485f-8975-98910471c9ea")
+	)
 	(sheet
-		(at 16.51 85.09)
-		(size 88.9 64.77)
+		(at 151.13 16.51)
+		(size 125.73 110.49)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +44,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1050bd4f-d9f0-4ddf-8751-af2611f7ea07")
-		(property "Sheetname" "COMUNICACIONS"
-			(at 16.51 84.3784 0)
+		(uuid "81127ddb-0668-402b-863d-213dd1dac81e")
+		(property "Sheetname" "CONTROL UNIT"
+			(at 151.13 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +54,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "comunicacions.kicad_sch"
-			(at 16.51 150.4446 0)
+		(property "Sheetfile" "ControlUnit.kicad_sch"
+			(at 151.13 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +72,8 @@
 		)
 	)
 	(sheet
-		(at 16.51 16.51)
-		(size 87.63 53.34)
+		(at 17.78 16.51)
+		(size 123.19 110.49)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -62,9 +86,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3e6a788b-feef-45c4-bbb9-f5e7cb76aa91")
-		(property "Sheetname" "POWER"
-			(at 16.51 15.7984 0)
+		(uuid "ba208a0b-e8d7-4b1c-b897-5a733cf9202a")
+		(property "Sheetname" "POWER & COMMUNICATIONS"
+			(at 17.78 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +96,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 16.51 70.4346 0)
+		(property "Sheetfile" "power&communications.kicad_sch"
+			(at 17.78 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,133 +108,7 @@
 		(instances
 			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
 				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 107.95 16.51)
-		(size 92.71 140.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7e35d8d3-8b35-4beb-922e-687e7fcfe1e6")
-		(property "Sheetname" "MICROCONTROLADOR"
-			(at 107.95 15.7984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "micrcontrolador.kicad_sch"
-			(at 107.95 158.0646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
-				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 204.47 88.9)
-		(size 76.2 68.58)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "db443bb2-c019-4a94-bb99-619d7b9d8d5c")
-		(property "Sheetname" "ACCIONADORS"
-			(at 204.47 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "accionadors.kicad_sch"
-			(at 204.47 158.0646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
-				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 204.47 16.51)
-		(size 76.2 66.04)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ea3a0719-c2d7-40bd-982d-95a5ed936e91")
-		(property "Sheetname" "SENSORS"
-			(at 204.47 15.7984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sensors.kicad_sch"
-			(at 204.47 83.1346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "maleter_EDD_dc_CampaneraMireia_MartinAlba"
-				(path "/c2b694d2-752b-44f8-812f-8731bb340544"
-					(page "5")
+					(page "4")
 				)
 			)
 		)

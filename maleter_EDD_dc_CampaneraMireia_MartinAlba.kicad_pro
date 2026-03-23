@@ -414,24 +414,12 @@
       "Root"
     ],
     [
-      "3e6a788b-feef-45c4-bbb9-f5e7cb76aa91",
-      "POWER"
+      "ba208a0b-e8d7-4b1c-b897-5a733cf9202a",
+      "POWER & COMMUNICATIONS"
     ],
     [
-      "7e35d8d3-8b35-4beb-922e-687e7fcfe1e6",
-      "MICROCONTROLADOR"
-    ],
-    [
-      "1050bd4f-d9f0-4ddf-8751-af2611f7ea07",
-      "COMUNICACIONS"
-    ],
-    [
-      "ea3a0719-c2d7-40bd-982d-95a5ed936e91",
-      "SENSORS"
-    ],
-    [
-      "db443bb2-c019-4a94-bb99-619d7b9d8d5c",
-      "ACCIONADORS"
+      "81127ddb-0668-402b-863d-213dd1dac81e",
+      "CONTROL UNIT"
     ]
   ],
   "text_variables": {}

@@ -3654,7 +3654,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 86.36 125.73 270)
+		(at 85.09 125.73 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3666,7 +3666,7 @@
 		)
 		(uuid "5263c110-f01b-4455-add4-0445d4954960")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 133.3036 90)
+			(at 85.09 133.3036 90)
 			(effects
 				(font
 					(size 1.27 1.27)

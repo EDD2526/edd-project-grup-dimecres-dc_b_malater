@@ -2850,7 +2850,7 @@
 		)
 		(uuid "359b5352-6d3e-4921-9f6a-ac3bfa44c7b3")
 	)
-	(text "MIREIA CAMPANERA I ALBA MARTÍN\nPROJECTE MALETER EDD"
+	(text "MIREIA CAMPANERA I ALBA MARTÍN\nPROJECTE MALETER EDD\nComunicacions: Bus CAN, alimentació i connexió UART"
 		(exclude_from_sim no)
 		(at 178.308 170.688 0)
 		(effects
@@ -2958,6 +2958,10 @@
 		(uuid "f44ec88f-4919-4c55-9597-ab984b902e4e")
 	)
 	(no_connect
+		(at 171.45 107.95)
+		(uuid "0b85df19-6b56-4532-a815-e1d07aeab3b6")
+	)
+	(no_connect
 		(at 105.41 104.14)
 		(uuid "3cc71b27-3349-4749-bce9-7a0e0c4513c6")
 	)
@@ -2972,6 +2976,10 @@
 	(no_connect
 		(at 245.11 128.27)
 		(uuid "91a4f9b4-6851-447f-830d-901fa04c0926")
+	)
+	(no_connect
+		(at 171.45 100.33)
+		(uuid "9cd0fc3e-07b8-4167-99da-bf0077fc7de4")
 	)
 	(no_connect
 		(at 204.47 128.27)
@@ -2994,8 +3002,24 @@
 		(uuid "ca766eef-1310-4d84-83b5-15b4c09da280")
 	)
 	(no_connect
+		(at 171.45 102.87)
+		(uuid "cd1a9afa-5cc4-4da8-aa10-8c3fc30e7c1b")
+	)
+	(no_connect
+		(at 171.45 115.57)
+		(uuid "d593bc26-5cc0-41fa-8c7c-360b2bc9a597")
+	)
+	(no_connect
+		(at 171.45 118.11)
+		(uuid "d9ee1d3c-4822-46d5-b2b1-93bcf8a57531")
+	)
+	(no_connect
 		(at 49.53 114.3)
 		(uuid "e608b2b0-ced5-482e-ab9c-07329dc99e7f")
+	)
+	(no_connect
+		(at 171.45 113.03)
+		(uuid "fa8afad6-0b7e-46c3-a7b8-db95f41bc4f4")
 	)
 	(no_connect
 		(at 204.47 138.43)
@@ -3193,16 +3217,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 44.45) (xy 96.52 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dee4df3-a94d-43cb-b972-0a27520d94c8")
-	)
-	(wire
-		(pts
 			(xy 85.09 106.68) (xy 85.09 107.95)
 		)
 		(stroke
@@ -3220,16 +3234,6 @@
 			(type default)
 		)
 		(uuid "414ee0f9-3a27-4148-81ea-ad52cb71519c")
-	)
-	(wire
-		(pts
-			(xy 96.52 38.1) (xy 105.41 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43262c8f-fe76-4056-bfd2-033e5c0ea112")
 	)
 	(wire
 		(pts
@@ -3742,6 +3746,26 @@
 		)
 		(uuid "02fcd381-908f-4daa-9162-2997279b5c35")
 	)
+	(label "CANL"
+		(at 92.71 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14a43702-4f8a-458c-88dd-011a81160cc2")
+	)
+	(label "CANH"
+		(at 91.44 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "926625bd-9663-4387-ac61-3fafbbc0682e")
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 224.79 86.36 90)
@@ -4176,7 +4200,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 38.1 0)
+		(at 96.52 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4185,7 +4209,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e7f047e-ce0c-48b0-91b0-89538db3a5f4")
 		(property "Reference" "#PWR09"
-			(at 105.41 44.45 0)
+			(at 96.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,15 +4218,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 43.18 0)
+			(at 99.06 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 38.1 0)
+			(at 96.52 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 38.1 0)
+			(at 96.52 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 38.1 0)
+			(at 96.52 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5519,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 48.26 0)
+		(at 96.52 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5503,7 +5528,7 @@
 		(fields_autoplaced yes)
 		(uuid "83f8a670-5005-4634-9996-5cdf92227a30")
 		(property "Reference" "C4"
-			(at 100.33 46.9899 0)
+			(at 92.71 57.1501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5537,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 100.33 49.5299 0)
+			(at 92.71 54.6101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5546,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 97.4852 52.07 0)
+			(at 95.5548 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +5555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 48.26 0)
+			(at 96.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5539,7 +5564,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 48.26 0)
+			(at 96.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

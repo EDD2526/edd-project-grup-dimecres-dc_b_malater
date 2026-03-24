@@ -31,7 +31,7 @@ En el nostre cas utilitzarem el DRV8871
 El cotxe detecta el peu sota el para-xocs, això ho fa amb un sensor de distància. Nosaltres hem triat el ToF VL53L0X  (Time of Flight). Mesura la distància amb llum infraroja. Aquesta informació la envia al micro amb un sistema de comunicació anomenat I2C, aquest, permet que dos circuits parlin entre ells. Només necessita dos cables: SDA(Serial Data), cable per on passen les dades i SCL(Serial Clock), cable que marca el ritme de comunicació.
   * SENSOR DE FINAL DE CARRERA:
 Detecta si el maleter està totalment obert. És simplement un interruptor mecànic, quan el maleter està tancat l’interruptor està en OFF, quan està obert està en ON. 
- * SENSOR ANTI-ATRAPAMENT:
+  * SENSOR ANTI-ATRAPAMENT:
 Evita que t’atrapis la mà amb el maleter.
 Això ho evitarem detectant quan el motor està bloquejat (per una mà atrapada). Quan el motor es bloqueja la corrent del motor augmenta molt, detectant aquest augment de corrent és com evitarem l’atrapament. Això ho farem amb un circuit de tres parts:
 Resistència molt petita (0.05Ω) entre el motor i el GND

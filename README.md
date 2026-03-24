@@ -16,7 +16,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30194).
  - Detectar objectes per evitar atrapaments
 
 ## Diagrama de blocs
-C:\Users\User\Desktop\UB\2N\eines de disseny\projecte\edd-project-grup-dimecres-dc_b_malater\DIAGRAMA DE BLOCS.png
+![Diagrama de blocs](C:\Users\User\Desktop\UB\2N\eines de disseny\projecte\edd-project-grup-dimecres-dc_b_malater\DIAGRAMA DE BLOCS.png)
 ### Descripció/funcionalitat de cada bloc
 
   *

@@ -3,7 +3,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30194).
 # Projecte Maleter 
 
 >**Autors: Alba Martin i Mireia Campanera
->**Versió: **
+>**Versió: 1
 
 ----------
 
@@ -13,7 +13,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30194).
 
 
 ## Diagrama de blocs
-
+![DiagramaBlocs](DiagramaBlocs.png)
 
 ### Descripció/funcionalitat de cada bloc
 
@@ -24,7 +24,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30194).
 ## Requisits / Especificacions
 
   * Alimentació; 12V, regulada 5V
-  * Microcontrolador PIC18xxxxxxxxx
+  * Microcontrolador PIC24HJ128GP502
   * ...
 
 -----------

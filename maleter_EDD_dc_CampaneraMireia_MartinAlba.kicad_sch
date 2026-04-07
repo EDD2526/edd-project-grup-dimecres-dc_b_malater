@@ -16,7 +16,7 @@
 		)
 		(uuid "2882da66-add3-4e26-929d-f761122625ac")
 	)
-	(text "POTÈNCIA I COMUNICACIONS\n"
+	(text "ALIMENTACIÓ I MOTOR\n"
 		(exclude_from_sim no)
 		(at 79.248 68.326 0)
 		(effects
@@ -28,7 +28,7 @@
 		)
 		(uuid "35d07cbd-2d55-43b3-bc56-5581dc63ddc0")
 	)
-	(text "MICROCONTROLADOR, SENSORS I \nACTUADORS"
+	(text "MICROCONTROLADOR, SENSORS I \nCOMUNICACIONS"
 		(exclude_from_sim no)
 		(at 214.884 69.088 0)
 		(effects
@@ -98,7 +98,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ba208a0b-e8d7-4b1c-b897-5a733cf9202a")
-		(property "Sheetname" "POWER & COMMUNICATIONS"
+		(property "Sheetname" "ALIMENTACIO I MOTOR"
 			(at 17.78 15.7984 0)
 			(effects
 				(font

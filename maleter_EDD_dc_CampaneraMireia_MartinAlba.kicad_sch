@@ -5,6 +5,17 @@
 	(uuid "c2b694d2-752b-44f8-812f-8731bb340544")
 	(paper "A4")
 	(lib_symbols)
+	(text "MIREIA CAMPANERA I ALBA MARTÍN\nPROJECTE MALETER EDD"
+		(exclude_from_sim no)
+		(at 178.562 170.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2882da66-add3-4e26-929d-f761122625ac")
+	)
 	(text "POTÈNCIA I COMUNICACIONS\n"
 		(exclude_from_sim no)
 		(at 79.248 68.326 0)

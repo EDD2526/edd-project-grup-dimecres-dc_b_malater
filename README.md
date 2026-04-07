@@ -3,7 +3,11 @@ View this project on [CADLAB.io](https://cadlab.io/project/30194).
 # Projecte Maleter 
 
 >**Autors: Alba Martin i Mireia Campanera
+<<<<<<< HEAD
 >**Versió: 
+=======
+>**Versió: 1
+>>>>>>> 689ee14ca79a34b128441d443d3a97a18ecf9688
 
 ----------
 
@@ -16,7 +20,12 @@ View this project on [CADLAB.io](https://cadlab.io/project/30194).
  - Detectar objectes per evitar atrapaments
 
 ## Diagrama de blocs
+<<<<<<< HEAD
 ![Diagrama de blocs](C:\Users\User\Desktop\UB\2N\eines de disseny\projecte\edd-project-grup-dimecres-dc_b_malater\DIAGRAMA DE BLOCS.png)
+=======
+![DiagramaBlocs](DiagramaBlocs.png)
+
+>>>>>>> 689ee14ca79a34b128441d443d3a97a18ecf9688
 ### Descripció/funcionalitat de cada bloc
 
   * El motor pot funcionar amb 12V de la bateria, però el microcontrolador en necessita 3.3V, per tant hem de posar reguladors de tensió que la redueixin.[Baixem de 12 a 5V (LM2596)] [Baixem de 5 a 3.3V (LM1117)]
@@ -48,6 +57,7 @@ El vidre del maleter té una resistència calefactora que funciona amb 12V i 3A 
 
 ## Requisits / Especificacions
 
+<<<<<<< HEAD
   * Alimentació; 12V, regulada 5V (LM2596), regulada 3.3V (LM1117)
   * Microcontrolador PIC24HJ128GP502
   * Driver Motor DRV8871
@@ -56,6 +66,11 @@ El vidre del maleter té una resistència calefactora que funciona amb 12V i 3A 
   * Sensor anti-atrapament (amplificador INA180)
   * Calefactor (mosfet)
   * Comunicació Can MCP2551
+=======
+  * Alimentació; 12V, regulada 5V
+  * Microcontrolador PIC24HJ128GP502
+  * ...
+>>>>>>> 689ee14ca79a34b128441d443d3a97a18ecf9688
 
 -----------
 

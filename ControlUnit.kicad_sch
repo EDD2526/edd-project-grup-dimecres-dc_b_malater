@@ -7656,7 +7656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 73.66 74.93 0)
 			(effects
 				(font
@@ -11081,7 +11081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 142.748 58.42 90)
 			(effects
 				(font

@@ -3130,7 +3130,7 @@
 		)
 		(uuid "ff5c95a2-e96e-4833-9361-07d110ed2a40")
 	)
-	(label "5V"
+	(label "+5V"
 		(at 203.2 102.87 0)
 		(effects
 			(font

@@ -3131,7 +3131,7 @@
 		(uuid "ff5c95a2-e96e-4833-9361-07d110ed2a40")
 	)
 	(label "+5V"
-		(at 203.2 102.87 0)
+		(at 241.3 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3211,6 +3211,17 @@
 		)
 		(uuid "6ee15e2a-7ea6-422a-900d-073258dbb257")
 	)
+	(label "+5V"
+		(at 198.12 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c17d457-6e04-474b-92b5-32a25e1844f1")
+	)
 	(label "ILIM"
 		(at 55.88 106.68 0)
 		(effects
@@ -3220,6 +3231,28 @@
 			(justify left bottom)
 		)
 		(uuid "b604ab7e-23b7-4281-864e-fad7db6a6a59")
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 219.71 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e3fb647-e6ea-4dad-82fa-e4588b098e59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 96.0143 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "AntiAtrapament"
 		(shape output)

@@ -16171,7 +16171,7 @@
 		(uuid "f643837f-d8b1-423b-a3f7-95e3d8a192af")
 	)
 	(gr_text "Maleter EDD dc\nMireia Campanera\nAlba Martín"
-		(at 112.95 109.65 90)
+		(at 106.95 95.9 0)
 		(layer "F.SilkS")
 		(uuid "e28cc99c-3358-4a65-a574-85d8be76d659")
 		(effects
